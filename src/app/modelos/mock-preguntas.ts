@@ -1,4 +1,4 @@
-import { preguntas } from '../preguntas/preguntas';
+import { preguntas } from './preguntas';
 
 export const PREGUNTAS: preguntas[] = [
   { id: 1, enunciado: '¿Cómo se define TypeScript?', respuesta: 'Como un lenguaje orientado a objetos' },
