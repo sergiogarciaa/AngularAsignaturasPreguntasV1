@@ -1,0 +1,9 @@
+<h3>{{title}}</h3>
+<ul class="list-group">
+    <hr>
+    <li class="list-group-item list-group-item-warning" *ngFor="let preguntas of preguntas">
+        <p class="text-danger">{{preguntas.id}} | {{preguntas.enunciado}}</p>
+        <p>Respuesta: <span class="text-success">{{preguntas.respuesta}}</span></p>
+        
+    </li>
+</ul>
