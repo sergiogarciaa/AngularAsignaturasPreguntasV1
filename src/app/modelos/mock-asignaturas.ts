@@ -1,4 +1,4 @@
-import { asignaturas } from './asignaturas';
+import { asignaturas } from './asignaturasInterfaz';
 
 export const ASIGNATURAS: asignaturas[] = [
   {nombreAsignatura: 'Desarrollo Web Entorno Cliente', siglas: 'DWC', profesor: 'JGF' },
